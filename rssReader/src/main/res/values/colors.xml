@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ic_add_white_background">#26A69A</color>
+    <color name="theme_green">#26a69a</color>
+    <color name="dark_grey">#c8646464</color>
+    <color name="light_grey">#7d969696</color>
+</resources>

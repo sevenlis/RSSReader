@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_unread"
+            android:icon="@drawable/ic_unread_black_24dp"
+            android:title="@string/action_unread"/>
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_read_black_24dp"
+            android:title="@string/action_read"/>
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_inbox_black_24dp"
+            android:title="@string/action_all"/>
+    </group>
+
+    <item android:title="@string/action_manage">
+        <menu>
+            <item
+                android:id="@+id/nav_manage_feeds"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/action_manage_feeds"/>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/exit"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RSSReader</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_manage">Manage</string>
+    <string name="action_manage_feeds">Manage feeds</string>
+    <string name="action_unread">Unread</string>
+    <string name="action_read">Read</string>
+    <string name="action_all">All</string>
+    <string name="title_activity_feed_sources">FeedSourcesActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_source">ADD SOURCE</string>
+    <string name="edit_source">EDIT SOURCE</string>
+    <string name="action_renew">Update all</string>
+    <string name="mark_all_read">Mark all read</string>
+    <string name="remove_all">Remove all</string>
+    <string name="loading">Loading…</string>
+    <string name="loading_source">Loading {0}… ({1} of {2})</string>
+    <string name="pref_def_amount_to_display">Default entities amount to display</string>
+    <string name="pref_feed_update_title">Feed automatic update interval</string>
+    <string name="pref_feed_update_summary">Update interval in minutes. 0 - disabled.</string>
+    <string name="feeds_updates">Feeds updates…</string>
+    <string name="_OK">OK</string>
+    <string name="exit">Exit</string>
+    <string name="empty_text"/>
+    <string name="search">Search</string>
+</resources>

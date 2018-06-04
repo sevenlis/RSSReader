@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:id="@+id/default_entities_amount_id"
+        android:defaultValue="50"
+        android:inputType="number"
+        android:key="default_entities_amount"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_def_amount_to_display"
+        android:title="@string/pref_def_amount_to_display"/>
+    <EditTextPreference
+        android:id="@+id/feed_update_interval_id"
+        android:defaultValue="15"
+        android:key="feed_update_interval"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_feed_update_title"
+        android:summary="@string/pref_feed_update_summary"/>
+
+</PreferenceScreen>
